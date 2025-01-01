@@ -18,7 +18,7 @@ class PickName(QMainWindow, Ui_MainWindow):
         # 版本信息
         self.version = '1.4.3'
         self.version_time = '2024.11.30'
-        self.version_info = ''
+        self.version_info = '1'
         self.config_version = '1.1.4'
 
         # 初始名单
