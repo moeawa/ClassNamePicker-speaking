@@ -511,8 +511,11 @@ class PickName(QMainWindow, Ui_MainWindow):
         if text == "黄子城":
             self.engine.say("萌城")
             self.engine.runAndWait()
-        if text == "陈昊凯":
+        elif text == "陈昊凯":
             self.engine.say("陈皮")
+            self.engine.runAndWait()
+        elif text == "谢天佑":
+            self.engine.say("大萝卜驾到")
             self.engine.runAndWait()
         else:
             self.engine.say(text)
